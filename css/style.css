@@ -9,6 +9,7 @@
 body {
     background-color: #FAF9F8;
     font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden;
 }
 
 .announcement {
@@ -116,4 +117,67 @@ main {
 .button {
     padding: 5px 10px;
     background-color: white;
+}
+
+.image-section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.image-section-container {
+    width: 1000px;
+    height: 900px;
+    background-image:url(https://hmuruguay.vtexassets.com/assets/vtex.file-manager-graphql/images/55d5910a-45e7-4e4b-a431-5778a4e1d23c___cdf0f0ab234fb9e99d4e1af9570146b4.webp);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 80px;
+}
+
+.image-section-div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.trending-section  { 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-section-div {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trending-section-content {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.trending-section-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
 }
