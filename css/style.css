@@ -105,7 +105,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #CBB7D0;
+    background-color: #1249A1;
     gap: 30px;
 }
 
@@ -139,6 +139,28 @@ main {
     padding: 80px;
 }
 
+.image-section-container2 {
+    width: 1000px;
+    height: 900px;
+    background-image:url(https://hmuruguay.vtexassets.com/assets/vtex.file-manager-graphql/images/e4d18a0f-d239-4488-b58f-dc3c14689aa9___48c71d9605e64ec983f366c303d87832.webp);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 80px;
+}
+
+.image-section-container3 {
+    width: 1000px;
+    height: 900px;
+    background-image:url(https://hmuruguay.vtexassets.com/assets/vtex.file-manager-graphql/images/d52eaeaf-f498-4fe8-a59b-f56f79995393___3fb8caf06b7deed94a7c17e5f42bdb59.webp);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 80px;
+}
+
 .image-section-div {
     width: 600px;
     display: flex;
@@ -150,6 +172,8 @@ main {
 
 .white {
     color: white;
+    font-size: 16px;
+    text-align: center;
 }
 
 .trending-section  { 
