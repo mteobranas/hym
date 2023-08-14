@@ -161,6 +161,17 @@ main {
     padding: 80px;
 }
 
+.image-section-container4 {
+    width: 1000px;
+    height: 900px;
+    background-image:url(https://hmuruguay.vtexassets.com/assets/vtex.file-manager-graphql/images/0b7fd9b9-9ae4-4cf1-8eb8-bdf2f1ce379b___f4c6855e4be584563dcabb04b42179fa.webp);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 80px;
+}
+
 .image-section-div {
     width: 600px;
     display: flex;
